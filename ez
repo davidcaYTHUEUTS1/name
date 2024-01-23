@@ -4262,7 +4262,7 @@ local W =
     Window:MakeTab(
     {
         Name = " Info",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4271,7 +4271,7 @@ local M =
     Window:MakeTab(
     {
         Name = " Main",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4280,7 +4280,7 @@ local ST =
     Window:MakeTab(
     {
         Name = " Setting",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4289,7 +4289,7 @@ local IQ =
     Window:MakeTab(
     {
         Name = " Item & Quest",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4298,7 +4298,7 @@ local S =
     Window:MakeTab(
     {
         Name = " Stats",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4307,7 +4307,7 @@ local E =
     Window:MakeTab(
     {
         Name = " ESP",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4316,7 +4316,7 @@ local RA =
     Window:MakeTab(
     {
         Name = " Raid",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4325,7 +4325,7 @@ local LC =
     Window:MakeTab(
     {
         Name = " Local Players",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4334,7 +4334,7 @@ local Wld =
     Window:MakeTab(
     {
         Name = " Teleport",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4343,7 +4343,7 @@ local SV =
     Window:MakeTab(
     {
         Name = " Status Sever",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4352,7 +4352,7 @@ local D =
     Window:MakeTab(
     {
         Name = " Devil Fruit",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4361,7 +4361,7 @@ local R =
     Window:MakeTab(
     {
         Name = " Race V4",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4370,7 +4370,7 @@ local SH =
     Window:MakeTab(
     {
         Name = " Shop",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -4379,7 +4379,7 @@ local C =
     Window:MakeTab(
     {
         Name = " Misc",
-        Icon = "rbxassetid://15970728997",
+        Icon = "rbxassetid://15867528462",
         PremiumOnly = false
     }
 )
@@ -17372,7 +17372,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 50)
 ImageButton.Draggable = true
-ImageButton.Image = "https://www.roblox.com/asset/?id=15970725914"
+ImageButton.Image = "https://www.roblox.com/asset/?id=16088640168"
 UICorner.Parent = ImageButton
 ImageButton.MouseButton1Down:connect(function()
        game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
