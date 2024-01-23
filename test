@@ -1,0 +1,51 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Nameless hud", HidePremium = false, SaveConfig = true, ConfigFolder = "Nameless hud"})
+
+local Main = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Section = Tab:Main({
+    Name = "farm lever "
+})
+
+OrionLib:MakeNotification({
+    Name = "Nameless",
+    Content = "tanyeuban",
+    Image = "rbxassetid://4483345998",
+    Time = 5
+})
+
+Main:AddToggle({
+    Name = "farm lever",
+    Default = false,
+    Callback = function(tanyeuem)
+   _G.farmlever = tanyeuem        
+    end    
+})
+
+
+        if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then 
+    setfpscap(999)
+    _G.Color = Color3.fromRGB(0, 86, 255)
+    _G.farmlever = {
+        Auto_Farm_Level = false,
+        Auto_Farm_Fast = true,
+        Auto_New_World = false,
+        Auto_Third_World = false,
+        Auto_Farm_Chest = false,
+        Auto_Farm_Chest_Hop = false,
+        Auto_Elite_Hunter = false,
+        Auto_Elite_Hunter_Hop = false,
+        Auto_Spawn_Cake_Prince = false,
+        Auto_Cake_Prince = false,
+        Auto_Farm_Boss = false,
+Brimob = true,
+        Select_Stats = {},
+        Bypass = false,
+        Rejoin = true,
+        FastAttack = true,
+        Auto_Saber = false,
+        Auto_Saber_Hop = false,
